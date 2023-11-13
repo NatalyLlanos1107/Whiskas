@@ -36,7 +36,7 @@ p {
 	line-height: 24px;
 }
 a {
-	color: #71bd46;
+	color: #8d46bd;
 }
 a:hover, a:focus {
 	text-decoration: none;
@@ -68,7 +68,7 @@ ul, ol {
 hr {
 	height: 2px;
 	width: 60px;
-	background: #71bd46;
+	background: #8d46bd;
 	position: relative;
 	border: 0;
 	margin: 30px 0 0 0;
@@ -97,22 +97,22 @@ hr {
 	letter-spacing: 1px;
 }
 #menu.navbar-default .navbar-nav > li > a:hover {
-	color: #71bd46;
+	color: #8d46bd;
 }
 .on {
 	background-color: #222222 !important;
 	padding: 0 !important;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #71bd46 !important;
+	color: #8d46bd !important;
 	background-color: transparent;
 }
 .navbar-toggle {
 	border-radius: 0;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	background-color: #71bd46;
-	border-color: #71bd46;
+	background-color: #8d46bd;
+	border-color: #8d46bd;
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
 	background-color: #FFF;
@@ -122,12 +122,28 @@ hr {
 }
 /* Home Style */
 header {
-	background: url(../img/header-bg.jpg) no-repeat bottom center;
+	background: url(../img/header-bg.jpeg) no-repeat bottom center;
 	background-size: cover;
 	color: #cfcfcf;
 	position: relative;
 	height: 100%;
 }
+
+
+#gerente-section {
+    background-color: #5f0d51; /* Color de fondo */
+    padding: 80px 0;
+    text-align: center;
+}
+.team-member img {
+	background: url(../img/yo.jpg) no-repeat bottom center;
+    width: 200000px; /* Tamaño de la imagen del gerente */
+    height: 2000000px;
+    border-radius: 500%; /* Para hacer la imagen circular */
+    margin-bottom: 200px;
+}
+
+
 header p {
 	color: rgba(255,255,255,0.5);
 	font-size: 18px;
@@ -148,22 +164,22 @@ header p {
 	font-weight: 600;
 }
 .color {
-	color: #71bd46;
+	color: #8d46bd;
 	font-weight: 700;
 }
 .btn-default {
-	color: #71bd46;
+	color: #8d46bd;
 	font-family: 'Open Sans', sans-serif;
 	background-color: transparent;
-	border: 1px solid #71bd46;
+	border: 1px solid #8d46bd;
 	border-radius: 4px;
 	margin: 0 8px;
 	font-size: 18px;
 	transition: all 0.5s;
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
-	background-color: #71bd46;
-	border: 1px solid #71bd46;
+	background-color: #8d46bd;
+	border: 1px solid #8d46bd;
 	color: #eeeeee;
 }
 /* About Section */
@@ -221,7 +237,7 @@ img.team-img {
 #services-section i.fa {
 	font-size: 36px;
 	margin-right: 20px;
-	color: #71bd46;
+	color: #8d46bd;
 	padding-bottom: 10px;
 	display: block;
 }
@@ -245,12 +261,12 @@ ol.type li a {
 	color: #888;
 }
 ol.type li a.active {
-	color: #71bd46;
+	color: #8d46bd;
 	border-bottom: 1px solid #b8dea2;
 	padding-bottom: 8px;
 }
 ol.type li a:hover {
-	color: #71bd46;
+	color: #8d46bd;
 	border-bottom: 1px solid #b8dea2;
 	padding-bottom: 8px;
 }
@@ -342,7 +358,7 @@ ol.type li a:hover {
 	padding: 30px 0;
 }
 #contact-section i.fa {
-	color: #71bd46;
+	color: #8d46bd;
 	margin-right: 20px;
 }
 label {
@@ -376,15 +392,15 @@ label {
 }
 #contact-section .btn {
 	background: transparent;
-	border: 1px solid #71bd46;
+	border: 1px solid #8d46bd;
 	border-radius: 4px;
 	padding: 10px 20px;
 	margin-top: 20px;
-	color: #71bd46;
+	color: #8d46bd;
 	font-size: 16px;
 }
 #contact-section .btn:hover, #contact-section .btn:focus {
-	background: #71bd46;
+	background: #8d46bd;
 	color: #fff;
 }
 #contact-section .text-danger {
@@ -413,7 +429,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #social-section .social i.fa {
 	font-size: 24px;
 	padding: 4px 5px;
-	color: #71bd46;
+	color: #8d46bd;
 	transition: all 0.5s;
 }
 #social-section .social i.fa:hover {
@@ -434,7 +450,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 #footer a:hover, #footer a:focus {
 	text-decoration: none;
-	color: #71bd46;
+	color: #8d46bd;
 }
 
 @media (max-width: 768px) {
@@ -455,3 +471,37 @@ label {
 }
 }
 
+
+/* Estilos para la sección del Gerente */
+#gerente-section {
+    padding: 100px 0;
+	color: #000000;
+}
+
+.team-member img {
+    width: 200px; /* Tamaño de la imagen del gerente */
+    height: 200px;
+    border-radius: 50%; /* Para hacer la imagen circular */
+    margin-bottom: 20px;
+}
+
+.team-member h4 {
+    font-size: 24px;
+    margin: 0;
+	color: #cf42b8;
+}
+
+.team-member p {
+    font-size: 16px;
+	color: #ffffff;
+}
+
+.team-member .list-inline {
+    margin: 0;
+}
+
+.team-member .list-inline li {
+    display: inline;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
